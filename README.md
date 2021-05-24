@@ -60,28 +60,33 @@
   
   
 ## how to take all databases backup 
+-----------------
   # use below comamnd to take backup
   mysqldump -u root -p --all-databases > /root/all_db_bkup_OPS-3507
   
 
 ## to restore database two  method either we use < lessthen symbol to restore or we can use source path comamnd
-       ## less then command to restore.
+------------------------------
+         ## less then command to restore.
                                                            
             mysqldump -u root -p --all-databases < /root/all_db_bkup_OPS-3507.sql                                           
       
       ## source path command 
               source /root/all_db_bkup_OPS-3507.sql
   
-##  For particular database backup 
+##  For particular database backup
+----------------------------  
          ## use this below command for particular databases.
          mysqldump -u root -p directory  > /root/directory_bkup_04-04-2021_RFC-293.sql
   
   
 ## how to delete database
+-------------------  
   # command
     DROP DATABASE <databasename>;
   
-## how to delete mysql user 
+## how to delete mysql user
+------------------------  
    # command
   DROP USER '<username>'@'<host>';
   
