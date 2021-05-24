@@ -73,8 +73,8 @@
               source /root/all_db_bkup_OPS-3507.sql
   
 ##  For particular database backup 
-   ## use this below command for particular databases.
-     mysqldump -u root -p directory  > /root/directory_bkup_04-04-2021_RFC-293.sql
+         ## use this below command for particular databases.
+         mysqldump -u root -p directory  > /root/directory_bkup_04-04-2021_RFC-293.sql
   
 
   
