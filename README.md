@@ -76,6 +76,15 @@
          ## use this below command for particular databases.
          mysqldump -u root -p directory  > /root/directory_bkup_04-04-2021_RFC-293.sql
   
+  
+## how to delete database
+  # command
+    DROP DATABASE <databasename>;
+  
+## how to delete mysql user 
+   # command
+  DROP USER '<username>'@'<host>';
+  
 
   
   
