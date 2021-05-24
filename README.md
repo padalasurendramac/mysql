@@ -67,11 +67,11 @@
 
 ## to restore database two  method either we use < lessthen symbol to restore or we can use source path comamnd
 ------------------------------
-         ## less then command to restore.
+              ## less then command to restore.
                                                            
-            mysqldump -u root -p --all-databases < /root/all_db_bkup_OPS-3507.sql                                           
+                mysqldump -u root -p --all-databases < /root/all_db_bkup_OPS-3507.sql                                           
       
-      ## source path command 
+               ## source path command 
               source /root/all_db_bkup_OPS-3507.sql
   
 ##  For particular database backup
@@ -82,13 +82,13 @@
   
 ## how to delete database
 -------------------  
-  # command
-    DROP DATABASE <databasename>;
+           # command
+            DROP DATABASE <databasename>;
   
 ## how to delete mysql user
 ------------------------  
-   # command
-  DROP USER '<username>'@'<host>';
+                                        # command
+                                          DROP USER '<username>'@'<host>';
   
 
   
