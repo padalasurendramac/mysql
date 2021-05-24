@@ -1,4 +1,4 @@
-# mysql
+# MySQL
 
 # how to connect mysql remote
   mysql -u  root  -p password -h 192.168.0.1
