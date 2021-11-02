@@ -1,4 +1,7 @@
 # MySQL
+![image](https://user-images.githubusercontent.com/53860717/139904453-397130af-0769-4a70-b932-840be00e30a1.png)
+
+
 
 # how to connect mysql remote
   mysql -u  root  -p password -h 192.168.0.1
