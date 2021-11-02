@@ -219,6 +219,8 @@ nested query 7 output
             select * from employee where department in(select deptid from empdept where deptname='development')
             output:-
             nested query 8 output
-          ![image](https://user-images.githubusercontent.com/53860717/139907441-51e04e08-ad98-4895-a3d2-a843b90160d9.png)
+	    
+	    
+![image](https://user-images.githubusercontent.com/53860717/139907441-51e04e08-ad98-4895-a3d2-a843b90160d9.png)
 
 		
