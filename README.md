@@ -47,6 +47,10 @@
   
   or GRANT ALL ON *  TO '<username>'@'<host>';  #  FOR TO  ALL ACCESS.
   
+--------------------
+##  To Show user permissin use this below commands:-
+
+    show grants for '<user>'@'%';  
   
 ## HOW TO update host for already created user
 -----------------------------------------------  
