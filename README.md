@@ -96,7 +96,10 @@
          mysql> source <full_path>/table_name.sql
          or
          mysql -u username -p db_name < /path/to/table_name.sql
-  
+       
+     https://stackoverflow.com/questions/6682916/how-to-take-backup-of-a-single-table-in-a-mysql-database
+                                                               
+                                                               
 ## how to delete database
 -------------------  
               # command
