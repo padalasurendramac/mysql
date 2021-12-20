@@ -85,7 +85,17 @@
 ----------------------------  
               ## use this below command for particular databases.
               mysqldump -u root -p directory  > /root/directory_bkup_04-04-2021_RFC-293.sql
-  
+
+## For particular table backup and restore
+----------------  
+      ## backup 
+         mysqldump db_name table_name > table_name.sql
+
+      ## restore
+         mysql -u <user_name> -p db_name
+         mysql> source <full_path>/table_name.sql
+         or
+         mysql -u username -p db_name < /path/to/table_name.sql
   
 ## how to delete database
 -------------------  
