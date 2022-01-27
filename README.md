@@ -111,7 +111,9 @@
               DROP USER '<username>'@'<host>';
   
 
+## how find the active user list in mysql 
   
+  SHOW PROCESSLIST;
   
   
   
