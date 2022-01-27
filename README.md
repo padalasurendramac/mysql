@@ -116,6 +116,10 @@
   SHOW PROCESSLIST;
   
   
+## Deleting particuler row in table with  where condition
+  
+  DELETE FROM <table> WHERE id='<vaule>';
+  
   
 
 
