@@ -121,8 +121,9 @@
   DELETE FROM <table> WHERE id='<vaule>';
   
   
+## grant permission and flush 
 
-
-    
+    GRANT SELECT, INSERT, UPDATE, DELETE ON databases.* TO 'user'@'%';
+    FLUSH PRIVILEGES;
     
      
