@@ -12,7 +12,10 @@
    2. after excute command flush privilage
    FLUSH PRIVILEGES;
 
-   
+# taking particular table backup
+
+
+   mysqldump db_name table_name > table_name.sql
 
 ---------------------------------------
 
