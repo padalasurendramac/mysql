@@ -16,6 +16,14 @@
 
 
    mysqldump db_name table_name > table_name.sql
+   
+# edit particular row in table
+  
+   UPDATE employees 
+SET 
+    email = 'mary.patterson@classicmodelcars.com'
+WHERE
+    employeeNumber = 1056;
 
 ---------------------------------------
 
