@@ -15,7 +15,7 @@
 # taking particular table backup
 
 
-   mysqldump db_name table_name > table_name.sql
+   mysqldump -u root -p db_name table_name > table_name.sql
    
 # edit particular row in table
   
